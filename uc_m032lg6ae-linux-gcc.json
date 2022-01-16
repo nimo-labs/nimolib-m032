@@ -1,19 +1,19 @@
 {
 	"microcontroller": "m032lg6ae",
 	"ucFamily": "m032",
-	"linkerFile": "./umake/nimolib/uC/m032/linker/gcc_arm_256k_32k_blApp.ld",
+	"linkerFile": "./umake/nimolib-m032/linker/gcc_arm_256k_32k_blApp.ld",
 	"supportFiles": [
-		"umake/nimolib/uC/m032/startup_m032.c",
-		"./umake/nimolib/uC/m032/_syscalls.c",
-		"./umake/nimolib/uC/m032/support.c"
+		"umake/nimolib-m032/startup_m032.c",
+		"./umake/nimolib-m032/_syscalls.c",
+		"./umake/nimolib-m032/support.c"
 	],
 	"defines": [
 		"__NUVO_M032K"
 	],
 	"cflags": [
-		"-I ./umake/nimolib/uC/m032/include",
-		"-I ./umake/nimolib/uC/m032/include/cmsis",
-		"-I ./umake/nimolib/uC/m032/include/moduleHeaders",
+		"-I ./umake/nimolib-m032/include",
+		"-I ./umake/nimolib-m032/include/cmsis",
+		"-I ./umake/nimolib-m032/include/moduleHeaders",
 		"-W -Wall --std=gnu99 -Os",
 		"-fno-diagnostics-show-caret",
 		"-fdata-sections -ffunction-sections",
