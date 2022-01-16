@@ -12,7 +12,7 @@ jobs:
     steps:
     - uses: actions/checkout@v2
       with:
-        repository: 'https://github.com/nimo-labs/microNIMO-examples.git'
+        repository: 'nimo-labs/microNIMO-examples'
         path: 'microNIMO-examples'
     - run: |
         cd microNIMO-examples
