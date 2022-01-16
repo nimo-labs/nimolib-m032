@@ -14,7 +14,8 @@ jobs:
       with:
         repository: 'nimo-labs/microNIMO-examples'
         path: 'microNIMO-examples'
+        name: Checkout latest examples
     - run: |
         cd microNIMO-examples
         ./buildall.sh
-      name: Compile
+      name: Run tests
