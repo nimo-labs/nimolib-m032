@@ -2,7 +2,11 @@
     "microcontroller": "m032ld2ae",
     "ucFamily": "m032",
     "linkerFile": "./umake/nimolib-m032/linker/gcc_arm_64K.ld",
-    "startupFile": "umake/nimolib-m032/startup_M031Series.S",
+    "supportFiles": [
+        "umake/nimolib-m032/startup_m032.c",
+        "./umake/nimolib-m032/_syscalls.c",
+        "./umake/nimolib-m032/support.c"
+    ],
     "defines": [
         "__NUVO_M032K"
     ],
