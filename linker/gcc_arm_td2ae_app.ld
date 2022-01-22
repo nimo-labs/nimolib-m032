@@ -5,9 +5,6 @@ MEMORY
   RAM (rwx)  : ORIGIN = 0x20000000, LENGTH = 0x2000   /* 8k */
 }
 
-APP_INT_FLASH_START = ORIGIN(FLASH) + LENGTH(FLASH);;
-APP_INT_FLASH_LENGTH = 0x3D000;
-
 /* Library configurations */
 /*GROUP(libgcc.a libc.a libm.a libnosys.a)*/
 
